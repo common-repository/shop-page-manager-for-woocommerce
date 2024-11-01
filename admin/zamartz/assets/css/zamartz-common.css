@@ -1,0 +1,1144 @@
+/*** General ***/
+
+.zamartz-wrapper .zamartz-dismiss-notice {
+    position: relative;
+    padding-right: 38px;
+}
+
+.zamartz-wrapper .zamartz-dashicon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+
+/*** Page Structure ***/
+
+.zamartz-wrapper {
+    display: inline-block;
+    width: 100%;
+}
+
+.zamartz-wrapper .zamartz-col-25 {
+    width: 25%;
+    display: inline-block;
+    float: left;
+}
+
+.zamartz-wrapper .zamartz-col-50 {
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+.zamartz-wrapper .zamartz-col-75 {
+    width: 75%;
+    display: inline-block;
+    float: left;
+}
+
+@media (max-width: 1099px) {
+    .zamartz-wrapper .zamartz-col-mobile-100 {
+        width: 100%;
+    }
+}
+
+.zamartz-wrapper .zamartz-notice-box {
+    margin: 15px 0;
+}
+
+.zamartz-wrapper .zamartz-notice {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    margin: 5px 15px 2px;
+    padding: 1px 12px;
+}
+
+.zamartz-wrapper .zamartz-notice.notice-warning {
+    border-left-color: #ffb900;
+}
+
+.zamartz-wrapper .zamartz-notice.notice-info {
+    border-left-color: #00a0d2;
+}
+
+.zamartz-wrapper .zamartz-notice p {
+    margin: 0.5em 0;
+    padding: 2px;
+}
+
+.zamartz-wrapper .zamartz-notice {
+    margin-left: 0;
+}
+
+.zamartz-wrapper .dashicons.dashicons-star-filled {
+    width: 13px;
+    height: 13px;
+    font-size: 13px;
+    line-height: 0.85;
+    color: #0878b0;
+    vertical-align: middle;
+}
+
+.zamartz-wrapper .zamartz-notice-subcontent {
+    color: #888888;
+}
+
+.zamartz-wrapper .zamartz-notice-box-btn {
+    text-align: right;
+}
+
+.zamartz-wrapper .zamartz-message.success {
+    color: #6cd675;
+}
+
+.zamartz-wrapper .zamartz-message.error {
+    color: #e04b4b;
+}
+
+.zamartz-sub-navigation li {
+    border-right: 1px solid #676767;
+}
+
+.zamartz-sub-navigation li:last-of-type {
+    border-right: none;
+}
+
+.zamartz-sub-navigation li a {
+    line-height: 1;
+    padding: 0 0.4em;
+}
+
+
+/*** Accordion ***/
+
+.zamartz-wrapper .zamartz-add-rule-set-wrapper {
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+.zamartz-wrapper .zamartz-add-rule-set-wrapper .zamartz-add-rule-set {
+    margin: 15px 0px 15px 0;
+    padding: 3px 8px 3px 3px;
+    display: inline-block;
+}
+
+.zamartz-wrapper .zamartz-add-rule-set:before {
+    font: normal 13px dashicons;
+    content: "\f132";
+    float: left;
+    padding: 4px 3px 0 0;
+}
+
+.zamartz-wrapper .zamartz-add-rule-set-wrapper .dashicons.dashicons-update {
+    margin: 20px 5px 0 0;
+}
+
+.zamartz-wrapper input.zamartz-rule-set-priority {
+    width: 60px !important;
+}
+
+.zamartz-wrapper .zamartz-accordion-fixed {
+    position: fixed;
+}
+
+.zamartz-wrapper .zamartz-accordion-simple .zamartz-toggle-indicator:before {
+    float: right;
+    position: absolute;
+    right: 10px;
+}
+
+.zamartz-wrapper button.zamartz-toggle-indicator {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.zamartz-wrapper .zamartz-accordion-simple .submit {
+    display: block !important;
+}
+
+.zamartz-wrapper .zamartz-accordion-simple input[type="text"],
+.zamartz-wrapper .zamartz-accordion-simple input[type="email"] {
+    width: 400px;
+}
+
+.zamartz-wrapper .zamartz-panel-header {
+    border-bottom: 1px solid #ccd0d4;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+}
+
+.zamartz-wrapper .zamartz-toggle-indicator {
+    font-weight: bold;
+}
+
+.zamartz-wrapper .zamartz-toggle-indicator:before {
+    width: 20px;
+    content: "\f142";
+    text-indent: -1;
+    font: normal 20px/1 dashicons;
+    color: #72777c;
+    cursor: pointer;
+}
+
+.zamartz-wrapper .zamartz-toggle-indicator.closed:before {
+    content: "\f140";
+}
+
+.zamartz-wrapper .zamartz-linked-checkbox {
+    border: 1px solid #ccd0d4;
+    padding: 5px;
+    margin: auto -5px;
+}
+
+.zamartz-wrapper .zamartz-linked-checkbox-switch .switch:before {
+    content: "OR";
+    position: absolute;
+    left: -22px;
+    top: 4px;
+}
+
+.zamartz-wrapper .zamartz-linked-checkbox-switch .switch:after {
+    content: "AND";
+    position: absolute;
+    top: 4px;
+    right: -32px;
+}
+
+.zamartz-wrapper .zamartz-linked-checkbox-switch {
+    margin: 10px 0;
+}
+
+.zamartz-wrapper .zamartz-linked-checkbox-switch .zamartz-message.error {
+    display: block;
+}
+
+.zamartz-wrapper .zamartz-linked-checkbox-switch .zamartz-linked-checkbox-switch-label {
+    margin-right: 30px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 782px) {
+    .zamartz-simple-table-wrapper {
+        padding-right: 10px;
+    }
+    .zamartz-wrapper .zamartz-accordion-sidebar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    .zamartz-wrapper .zamartz-accordion-sidebar .zamartz-form-section,
+    .zamartz-wrapper .zamartz-accordion-sidebar .form-table {
+        margin: 0;
+    }
+    .zamartz-wrapper .zamartz-accordion-sidebar .zamartz-panel-header {
+        display: none;
+    }
+    .zamartz-wrapper .zamartz-accordion-sidebar .publishing-settings {
+        line-height: 3;
+    }
+    .zamartz-wrapper .zamartz-accordion-sidebar tr {
+        display: none;
+    }
+    .zamartz-wrapper .zamartz-accordion-sidebar tr:last-of-type {
+        display: table-row;
+    }
+}
+
+.zamartz-wrapper .zamartz-accordion-footer-link {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #e5e5e5;
+}
+
+.zamartz-wrapper .zamartz-accordion-footer-link a {
+    text-decoration: none;
+}
+
+
+/*** Accordion form ***/
+
+.zamartz-wrapper .zamartz-form-section {
+    background: #fff;
+    margin: 15px 15px 15px 0;
+    border: 1px solid #ccd0d4;
+}
+
+.zamartz-wrapper .zamartz-accordion-error {
+    border: 1px solid #e04b4b;
+}
+
+.zamartz-wrapper .zamartz-form-section .form-table tr th {
+    padding-left: 10px;
+}
+
+.zamartz-wrapper .form-table .zamartz-bordered {
+    border-top: 1px dashed #ccd0d4;
+}
+
+.zamartz-wrapper .zamartz-form-section td {
+    position: relative;
+}
+
+.zamartz-wrapper .zamartz-form-section p {
+    color: #23282d;
+}
+
+.zamartz-wrapper .zamartz-help-tip {
+    cursor: help;
+    position: absolute;
+    left: -15px;
+    margin: 0px;
+    margin-top: 2px;
+}
+
+.zamartz-wrapper .zamartz-help-tip::after {
+    font-family: Dashicons;
+    content: "\f223";
+    font-size: 17px;
+    opacity: 0.7;
+}
+
+
+/*** Accordion delete ***/
+
+.zamartz-wrapper .zamartz-accordion-delete .zamartz-toggle-indicator {
+    padding-left: 30px;
+}
+
+.zamartz-wrapper .zamartz-accordion-delete button {
+    background: none;
+    border: none;
+}
+
+.zamartz-wrapper .zamartz-accordion-delete .zamartz-toggle-indicator:before {
+    float: left;
+    position: absolute;
+    left: 5px;
+}
+
+.zamartz-wrapper .zamartz-delete-accordion {
+    float: right;
+    cursor: pointer;
+}
+
+.zamartz-wrapper .zamartz-delete-accordion:before {
+    font: normal 20px/1 dashicons;
+    content: "\f335";
+    float: right;
+    color: #72777c;
+}
+
+.zamartz-wrapper .additional-content {
+    display: inline-block;
+    position: absolute;
+    left: 20%;
+}
+
+.zamartz-wrapper .zamartz-message {
+    display: inline-block;
+    line-height: 2;
+    padding-left: 15px;
+}
+
+.zamartz-dashboard {
+    margin: 0px !important;
+}
+
+.zamartz-simple-table-wrapper {
+    margin-right: 0 !important;
+    display: block;
+    width: auto;
+    padding-right: 10px;
+}
+
+.zamartz-wrapper .zamartz-form-table .form-table {
+    margin-top: 0px;
+}
+
+.zamartz-wrapper .zamartz-general-settings th {
+    width: auto;
+}
+
+@media screen and (min-width: 783px) {
+    .zamartz-wrapper .zamartz-tristate-button-wrapper {
+        position: relative;
+    }
+    .zamartz-wrapper .zamartz-tristate-button-wrapper .zamartz-help-tip {
+        left: -25px;
+    }
+    /* .zamartz-wrapper .zamartz-tristate-button{
+        position: absolute;
+        right: 5%;
+        top: 5%;
+    } */
+}
+
+@media screen and (max-width: 782px) {
+    .zamartz-dashboard {
+        padding-right: 10px;
+        width: auto;
+    }
+    .zamartz-wrapper .additional-content {
+        position: relative;
+        left: 5px;
+        display: inline;
+    }
+    .zamartz-wrapper .zamartz-form-section {
+        margin: 5px 0px;
+    }
+    .zamartz-wrapper .zamartz-form-table input[type="text"] {
+        width: 150px !important;
+        display: inline-block !important;
+        font-size: 12px;
+    }
+    .zamartz-wrapper .zamartz-addon-settings tr:nth-child(even),
+    .zamartz-wrapper .zamartz-general-settings tr:nth-child(even) {
+        background-color: #f3f3f3;
+    }
+    .zamartz-wrapper .zamartz-addon-settings td,
+    .zamartz-wrapper .zamartz-general-settings td {
+        padding: 5px 0;
+    }
+    .zamartz-wrapper .zamartz-addon-settings th,
+    .zamartz-wrapper .zamartz-general-settings th {
+        width: 100%;
+    }
+    .zamartz-wrapper .zamartz-addon-settings td,
+    .zamartz-wrapper .zamartz-general-settings td {
+        display: block;
+    }
+    .zamartz-wrapper .zamartz-addon-settings .zamartz-message,
+    .zamartz-wrapper .zamartz-general-settings .zamartz-message {
+        padding-left: 0px;
+        display: block;
+    }
+    .zamartz-wrapper .zamartz-addon-settings .zamartz-help-tip,
+    .zamartz-wrapper .zamartz-general-settings .zamartz-help-tip {
+        left: 0;
+    }
+    .zamartz-wrapper .zamartz-addon-settings .zamartz-help-tip::after,
+    .zamartz-wrapper .zamartz-general-settings .zamartz-help-tip::after {
+        padding: 0px;
+        position: relative;
+        left: -5px;
+    }
+    .zamartz-wrapper {
+        min-width: 280px;
+    }
+    .zamartz-wrapper .zamartz-form-section td {
+        padding: 15px 10px;
+    }
+    .zamartz-wrapper .zamartz-form-section td label {
+        position: relative;
+        left: 0;
+        top: -7px;
+    }
+    .zamartz-wrapper .zamartz-help-tip {
+        position: relative;
+        left: 0;
+        margin: 0;
+        vertical-align: middle;
+    }
+    .zamartz-wrapper .zamartz-help-tip::after {
+        font-size: 29px;
+        opacity: 0.9;
+        padding: 0 25px;
+    }
+    .zamartz-wrapper input[type="checkbox"],
+    .zamartz-wrapper input[type="radio"] {
+        height: 1.3rem;
+        width: 1.3rem;
+    }
+    .zamartz-wrapper input[type="checkbox"]:checked:before {
+        width: 1.675rem;
+        height: 1.675rem;
+    }
+    .zamartz-wrapper .zamartz-form-table input {
+        margin: 0;
+        font-size: 12px;
+    }
+    .zamartz-wrapper .zamartz-form-table input[type="password"] {
+        width: 120px !important;
+        display: inline-block !important;
+    }
+    .zamartz-wrapper .select2-container {
+        font-size: 12px;
+    }
+    .zamartz-wrapper input[type="number"] {
+        width: 70px !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .zamartz-wrapper .zamartz-help-tip::after {
+        padding: 8px;
+    }
+}
+
+
+/*** The switch - the box around the slider ***/
+
+.zamartz-wrapper .switch {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 24px;
+}
+
+
+/*Hide default HTML checkbox */
+
+.zamartz-wrapper .switch input[type="checkbox"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+/* The slider */
+
+.zamartz-wrapper .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.zamartz-wrapper .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.zamartz-wrapper .switch input[type="checkbox"]:checked+.slider {
+    background-color: #2196f3;
+}
+
+.zamartz-wrapper .switch input[type="checkbox"]:focus+.slider {
+    box-shadow: 0 0 0 2px #007cba;
+}
+
+.zamartz-wrapper .switch input[type="checkbox"]:checked+.slider:before {
+    -webkit-transform: translateX(18px);
+    -ms-transform: translateX(18px);
+    transform: translateX(18px);
+}
+
+
+/* Rounded sliders */
+
+.zamartz-wrapper .slider.round {
+    border-radius: 34px;
+}
+
+.zamartz-wrapper .slider.round:before {
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 782px) {
+    .zamartz-wrapper .switch {
+        top: 0px !important;
+    }
+    .zamartz-wrapper label.switch {
+        padding-left: 0px !important;
+    }
+}
+
+
+/* Tri State Button */
+
+.zamartz-tristate-button {
+    width: 70px;
+    height: 18px;
+    background: #fff;
+    border-radius: 30px;
+    border: 1px solid black;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.zamartz-tristate-label-and-btn-wrapper {
+    width: 25%;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+.zamartz-tristate-require-label {
+    margin-top: 0 !important;
+}
+
+.zamartz-tristate-button.zamartz-tristate-active {
+    background: #0085ba;
+    border-color: #0085ba;
+}
+
+.zamartz-tristate-label {
+    display: inline-block;
+    transition: color 200ms ease-out;
+}
+
+.zamartz-tristate-indicator {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 2px;
+    left: -12px;
+    background: #555d66;
+    border-radius: 50%;
+    transition: transform 600ms cubic-bezier(0.02, 0.94, 0.09, 0.97), background 300ms cubic-bezier(0.17, 0.67, 0.14, 1.03);
+    transform: translate3d(20px, 0, 0);
+}
+
+.zamartz-tristate-button input:nth-of-type(1):checked~.zamartz-tristate-indicator {
+    transform: translate3d(20px, 0, 0);
+    background: white;
+}
+
+.zamartz-tristate-button input:nth-of-type(2):checked~.zamartz-tristate-indicator {
+    transform: translate3d(40px, 0, 0);
+}
+
+.zamartz-tristate-button input:nth-of-type(3):checked~.zamartz-tristate-indicator {
+    transform: translate3d(62px, 0, 0);
+    background: white;
+}
+
+.zamartz-wrapper .off-switch-label {
+    position: absolute;
+    right: -14px;
+    top: 0;
+    line-height: 10px !important;
+}
+
+.zamartz-wrapper .on-switch-label {
+    position: absolute;
+    left: -12px;
+    line-height: 10px !important;
+}
+
+.zamartz-tristate-button input {
+    width: auto !important;
+    opacity: 1;
+    margin-right: 0 !important;
+    border: 0;
+    border: 1px solid black;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(0.5);
+}
+
+.zamartz-tristate-button.zamartz-tristate-active input {
+    border: 1px solid #0085ba;
+}
+
+.zamartz-tristate-button input:first-of-type {
+    margin-left: 8px;
+}
+
+.zamartz-tristate-button label.active {
+    color: #0085ba;
+}
+
+@media screen and (max-width: 310px) {
+    .zamartz-tristate-require-label {
+        right: 50% !important;
+    }
+}
+
+@media screen and (min-width: 311px) and (max-width: 379px) {
+    .zamartz-tristate-require-label {
+        right: 50% !important;
+    }
+}
+
+@media screen and (min-width: 380px) and (max-width: 450px) {
+    .zamartz-tristate-require-label {
+        right: 44% !important;
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 550px) {
+    .zamartz-tristate-require-label {
+        right: 36% !important;
+    }
+}
+
+@media screen and (min-width: 551px) and (max-width: 650px) {
+    .zamartz-tristate-require-label {
+        right: 31% !important;
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 780px) {
+    .zamartz-tristate-require-label {
+        right: 26% !important;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    .zamartz-tristate-label-and-btn-wrapper {
+        width: 100%;
+        position: relative;
+        display: block;
+        height: 25px;
+        right: 0;
+        top: 0;
+    }
+    .zamartz-tristate-require-label {
+        margin-top: 0 !important;
+        position: absolute;
+        right: 25%;
+    }
+    .zamartz-wrapper .on-switch-label {
+        position: absolute !important;
+        left: -12px !important;
+        line-height: 10px !important;
+        top: 0 !important;
+    }
+    .zamartz-wrapper .off-switch-label {
+        position: absolute !important;
+        top: 0 !important;
+        line-height: 10px !important;
+        left: unset !important;
+    }
+    .zamartz-tristate-button input {
+        width: 1.3rem !important;
+    }
+    .zamartz-wrapper .zamartz-tristate-button input {
+        margin-top: -4px;
+    }
+    .zamartz-tristate-button {
+        width: 90px;
+        background: #fff;
+        border-radius: 30px;
+        border: 1px solid black;
+        position: absolute;
+        right: 7%;
+        top: 0;
+    }
+    .zamartz-tristate-button input:nth-of-type(1):checked~.zamartz-tristate-indicator {
+        transform: translate3d(24px, 0, 0);
+    }
+    .zamartz-tristate-button input:nth-of-type(2):checked~.zamartz-tristate-indicator {
+        transform: translate3d(50px, 0, 0);
+    }
+    .zamartz-tristate-button input:nth-of-type(3):checked~.zamartz-tristate-indicator {
+        transform: translate3d(74px, 0, 0);
+    }
+}
+
+@media screen and (min-width: 783px) and (max-width: 830px) {
+    .zamartz-tristate-label-and-btn-wrapper {
+        width: 32%;
+    }
+}
+
+@media screen and (min-width: 831px) and (max-width: 900px) {
+    .zamartz-tristate-label-and-btn-wrapper {
+        width: 29%;
+    }
+}
+
+@media screen and (min-width: 861px) and (max-width: 1030px) {
+    .zamartz-tristate-label-and-btn-wrapper {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+    .zamartz-tristate-label-and-btn-wrapper {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+    .zamartz-tristate-label-and-btn-wrapper {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .zamartz-tristate-label-and-btn-wrapper {
+        width: 22%;
+    }
+}
+
+
+/*** Accordion API enable/disable button ***/
+
+.zamartz-wrapper .zamartz-full-width-row button {
+    margin: 0 10px;
+    padding: 3px 5px;
+}
+
+.zamartz-wrapper .zamartz-enable-disable-api button.zamartz-disable:before {
+    font: normal 14px dashicons;
+    content: "\f132";
+    float: left;
+    padding: 4px 3px 0 0;
+}
+
+.zamartz-wrapper .zamartz-enable-disable-api button.zamartz-enable:before {
+    font: normal 14px dashicons;
+    content: "\f460";
+    float: left;
+    padding: 4px 3px 0 0;
+}
+
+
+/*** Legacy import CSS ***/
+
+.zamartz-table-content td {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.zamartz-table-content p {
+    line-height: 3;
+    margin: 0 0 0 10px;
+}
+
+
+/*** Dashicon spinner ***/
+
+.zamartz-wrapper .zamartz-full-width-row .dashicons.dashicons-update {
+    margin-top: 5px;
+}
+
+.zamartz-wrapper .dashicons.spin,
+.zamartz-modal .dashicons.spin {
+    animation: dashicons-spin 1s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes dashicons-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.zamartz-wrapper .notice.notice-info {
+    word-break: break-word;
+}
+
+
+/*** Network Admin ***/
+
+
+/*Sidebar*/
+
+.zamartz-wrapper #zamartz-api-key-count-update .dashicons.dashicons-update {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.zamartz-wrapper .zamartz-text-red {
+    color: red;
+}
+
+
+/*** Sidebar ***/
+
+.zamartz-wrapper .zamartz-sidebar {
+    margin: 15px 20px 0px 15px;
+}
+
+.zamartz-wrapper .publishing-settings {
+    float: left;
+}
+
+.zamartz-wrapper .publishing-settings a {
+    text-decoration: underline;
+}
+
+
+/* Side sticky */
+
+.zamartz-accordion-sidebar .zamartz-form-section {
+    position: relative;
+    top: 0;
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1100px) {
+    .zamartz-accordion-sidebar .zamartz-form-section {
+        margin-right: 15px;
+    }
+}
+
+.zamartz-accordion-sidebar .zamartz-form-section.affix {
+    position: fixed;
+    top: 85px;
+    *transition: all 0.3s ease;
+    margin-right: 15px;
+}
+
+
+/*** Dashboard feed ***/
+
+.zamartz-wrapper .feed-row-content td:first-of-type {
+    text-align: center;
+    width: 10%;
+}
+
+.zamartz-wrapper .feed-row-content td:nth-of-type(2) {
+    vertical-align: top;
+}
+
+.zamartz-wrapper .feed-title-row:not(:first-of-type) {
+    border-top: 1px solid #ccd0d4;
+}
+
+.zamartz-wrapper .feed-row-content img {
+    width: 100px;
+    height: 100px;
+}
+
+.zamartz-wrapper .feed-row-content td:first-of-type>img {
+    min-width: 50px;
+}
+
+.zamartz-wrapper .feed-item-title a {
+    text-decoration: none;
+}
+
+
+/** Simple table **/
+
+.zamartz-wrapper {
+    margin: 20px 20px 0 0;
+}
+
+.zamartz-wrapper .zamartz-simple-table tr:nth-child(2n) td {
+    background: #fcfcfc;
+}
+
+.zamartz-wrapper .zamartz-simple-table h3 {
+    margin: 0;
+}
+
+.zamartz-wrapper span.success {
+    color: #39ab35;
+}
+
+.zamartz-wrapper span.error {
+    color: #ed2828;
+}
+
+
+/** Custom Metabox **/
+
+.zamartz-wrapper .zamartz-metabox-row {
+    margin: 10px 0;
+}
+
+.zamartz-wrapper .zamartz-metabox-row:first-of-type {
+    margin-top: 0;
+}
+
+.zamartz-wrapper .zamartz-metabox-top {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.zamartz-wrapper .zamartz-metabox-left {
+    margin-right: 5px;
+}
+
+.zamartz-wrapper .zamartz-metabox-right {
+    margin-left: 5px;
+}
+
+.zamartz-wrapper .zamartz-metabox-bottom {
+    margin-bottom: 5px;
+}
+
+
+/** Zamartz modal **/
+
+
+/* The Modal (background) */
+
+.zamartz-modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.zamartz-modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    max-width: 615px;
+    width: 95%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+
+/* Add Animation */
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+
+/* The Close Button */
+
+.zamartz-modal-close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.zamartz-modal-close:hover,
+.zamartz-modal-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.zamartz-modal-header {
+    padding: 5px 15px;
+    color: white;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.zamartz-modal-body {
+    padding: 2px 15px;
+}
+
+.zamartz-modal-input {
+    display: block;
+}
+
+.zamartz-modal-input input {
+    width: 95%;
+    display: none;
+    margin: 5px 0 0 22px;
+}
+
+.zamartz-modal-footer {
+    padding: 15px;
+    color: white;
+    text-align: right;
+    border-top: 1px solid #e9e9e9;
+    background-color: #f6f6f6;
+}
+
+.zamartz-submit-deactivate .dashicons {
+    margin: 4px 0 0 4px;
+    color: black;
+}
+
+.zamartz-modal-footer button {
+    margin-left: 5px !important;
+}
+
+@media screen and (max-width: 574px) {
+    .zamartz-modal-input input {
+        font-size: 10px;
+        margin-left: 0;
+        width: 100%;
+        padding: 5px;
+    }
+}
+
+
+/** Zamartz modal END **/
+
+
+/** Zamartz Tracker Notice **/
+
+.zamartz-admin-tracker-notice {
+    padding: 12px !important;
+    position: relative;
+}
+
+.zamartz-admin-tracker-notice-buttons {
+    position: absolute;
+    top: 5px;
+    right: 12px;
+}
+
+@media screen and (max-width: 1350px) {
+    .zamartz-admin-tracker-notice-buttons {
+        position: relative;
+        top: unset;
+        right: unset;
+        margin-top: 10px;
+    }
+}
+
+
+/** Zamartz Tracker Notice End**/

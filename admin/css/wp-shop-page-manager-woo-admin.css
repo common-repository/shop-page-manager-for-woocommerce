@@ -1,0 +1,276 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+/* Multi Column Start */
+
+.zamartz-group-row {
+    margin-bottom: 20px;
+}
+
+.zamartz-multi-column-tooltip-and-select {
+    display: inline-block;
+    width: 70%;
+}
+
+.zamartz-group-row:last-child {
+    margin-bottom: 0;
+}
+
+.zamartz-group-row label {
+    width: 30%;
+    display: inline-block;
+    vertical-align: inherit;
+}
+
+.zamartz-group-row .zamartz-help-tip {
+    position: relative !important;
+    left: -5px;
+    top: 5px;
+}
+
+.zamartz-group-row .zamartz-multi-column-select {
+    width: 50% !important;
+}
+
+.zamartz-multi-column-text-input {
+    width: 20%;
+}
+
+.zamartz-wrapper .zamartz-group-row .zamartz-multi-inner-column {
+    width: 25% !important;
+    display: inline-block;
+}
+
+.zamartz-multi-inner-column-text-input {
+    margin-left: 16px !important;
+    height: 34px !important;
+}
+
+.zamartz-wrapper .select2-selection--single .select2-selection__rendered {
+    line-height: 38px !important;
+}
+
+.zamartz-wrapper table.form-table .select2-container {
+    max-width: 400px !important;
+}
+
+.zamartz-wrapper .select2-container .select2-selection--single,
+.zamartz-wrapper input.zamartz-rule-set-priority,
+.zamartz-wrapper .zamartz-condition-subfield input {
+    height: 40px !important;
+}
+
+.zamartz-wrapper .zamartz-notice {
+    text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+    .zamartz-wrapper .zamartz-group-row label {
+        margin-right: 5px;
+    }
+    .zamartz-wrapper .zamartz-group-row .zamartz-help-tip {
+        left: -5px;
+    }
+}
+
+
+/*WordPress left menu movied on 782px */
+
+@media screen and (max-width: 782px) {
+    .wc-enhanced-select {
+        width: auto !important;
+        display: inline-block !important;
+    }
+    .zamartz-wrapper .zamartz-addon-settings th {
+        width: auto;
+    }
+    .zamartz-group-row .zamartz-multi-column-select {
+        width: 50%;
+        display: inline-block;
+    }
+    .zamartz-wrapper .zamartz-group-row label {
+        top: 0 !important;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .zamartz-group-row .zamartz-multi-inner-column {
+        width: auto !important;
+    }
+    #mainform .zamartz-wrapper .zamartz-group-row .zamartz-multi-inner-column {
+        width: 24% !important;
+        min-height: 44px !important;
+    }
+    .zamartz-wrapper .zamartz-notice {
+        margin-right: 0 !important;
+    }
+    .zamartz-wrapper table.form-table .select2-container {
+        max-width: 210px !important;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .zamartz-multi-column-tooltip-and-select {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .zamartz-group-row .zamartz-multi-column-select {
+        width: 60% !important;
+    }
+    .zamartz-group-row .zamartz-help-tip {
+        position: relative;
+        left: 0;
+        vertical-align: middle;
+        display: inline-block;
+    }
+    .zamartz-group-row .zamartz-help-tip::after {
+        padding: 0 !important;
+    }
+    #mainform .zamartz-wrapper .zamartz-group-row .zamartz-multi-inner-column {
+        width: 29% !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    /* Ruleset */
+    .zamartz-group-row label {
+        top: 5px !important;
+    }
+    #mainform .zamartz-wrapper .zamartz-group-row .zamartz-multi-inner-column {
+        width: 36% !important;
+    }
+    #mainform .zamartz-wrapper .zamartz-group-row .zamartz-multi-inner-column-text-input {
+        width: 20% !important;
+    }
+    /* Customizer default section */
+    .zamartz-customizer-defaults-multi-column .zamartz-group-row label {
+        width: 100%;
+        margin-bottom: 13px;
+    }
+    .zamartz-customizer-defaults-multi-column .zamartz-group-row .zamartz-help-tip {
+        top: 0;
+    }
+    .zamartz-customizer-defaults-multi-column .zamartz-group-row .zamartz-multi-column-select {
+        width: 80% !important;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .zamartz-wrapper .zamartz-group-row .zamartz-multi-inner-column {
+        max-width: 192px;
+        height: 40px !important;
+    }
+}
+
+
+/* Multi Column End */
+
+
+/* Customizer */
+
+.zamartz-shop-manager-customizer-toggle {
+    margin: 0;
+}
+
+.zamartz-customizer-rulesets .form-table td,
+.zamartz-customizer-rulesets .form-table th,
+.zamartz-customizer-rulesets .label-responsive {
+    display: block !important;
+    width: auto !important;
+}
+
+.zamartz-customizer-rulesets,
+.zamartz-customizer-rulesets .zamartz-form-section {
+    margin: 0 !important;
+}
+
+.zamartz-customizer-rulesets .zamartz-group-row label {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.zamartz-customizer-rulesets .select2-container .select2-selection--multiple {
+    border-radius: 3px;
+}
+
+.zamartz-customizer-rulesets .select2-container .select2-selection {
+    border-color: #7e8993;
+}
+
+.zamartz-customizer-rulesets table.form-table .select2-container {
+    max-width: 200px !important;
+}
+
+#zamartz-customizer-wrapper .zamartz-multi-inner-column {
+    width: 39% !important;
+    min-height: 46px;
+    vertical-align: inherit;
+}
+
+#zamartz-customizer-wrapper .zamartz-help-tip {
+    position: relative;
+    left: -5px;
+    top: 5px;
+}
+
+.zamartz-customizer-rulesets .select2-container .select2-selection--single {
+    height: 46px;
+}
+
+.zamartz-customizer-rulesets .select2-container .select2-selection--single .select2-selection__rendered {
+    line-height: 46px;
+}
+
+.zamartz-customizer-rulesets .select2-container .select2-selection--single .select2-selection__arrow {
+    right: 3px;
+    height: 46px;
+}
+
+.zamartz-customizer-rulesets tr.zamartz-condition-subfield input[type=number],
+.zamartz-customizer-rulesets .shop-manager-paid-feature .zamartz-rule-set-priority {
+    width: 200px;
+    height: 46px;
+}
+
+#zamartz-customizer-wrapper input.zamartz-rule-set-priority {
+    width: 80px !important;
+    height: 46px;
+}
+
+@media screen and (max-width: 574px) {
+    .zamartz-customizer-rulesets table.form-table .select2-container {
+        max-width: 250px !important;
+    }
+    #zamartz-customizer-wrapper .zamartz-multi-inner-column {
+        width: 36% !important;
+    }
+    .zamartz-customizer-rulesets tr.zamartz-condition-subfield input[type=number],
+    .zamartz-customizer-rulesets .shop-manager-paid-feature .zamartz-rule-set-priority {
+        width: 250px !important;
+    }
+    #zamartz-customizer-wrapper .zamartz-help-tip {
+        position: relative;
+        left: 0;
+        vertical-align: middle;
+        display: inline-block;
+        width: 15%;
+    }
+    #zamartz-customizer-wrapper .zamartz-help-tip::after {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    .zamartz-wrapper .zamartz-dashicon-button {
+        padding-top: 0 !important;
+        position: relative;
+        top: 15px;
+        width: auto;
+        padding: 0;
+    }
+    .zamartz_page_zamartz-settings .zamartz-wrapper .zamartz-form-table input[type="password"] {
+        width: 150px !important;
+    }
+}
